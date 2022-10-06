@@ -1,5 +1,5 @@
-import BookCreate, { bookShelf } from "./app.js";
-import dynamicStorageRefresher from "./dynamic-update-function.js";
+import BookCreate, { bookShelf } from './transition.js';
+import dynamicStorageRefresher from './update-local-storage.js';
 
 // the function that will remove the book from the screen
 export const removeBook = (book) => {
